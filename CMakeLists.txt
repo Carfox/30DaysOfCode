@@ -3,4 +3,4 @@ project(30DaysOfCode)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(30DaysOfCode main.cpp)
+add_executable(30DaysOfCode main.cpp Rectangle.cpp Rectangle.h)
