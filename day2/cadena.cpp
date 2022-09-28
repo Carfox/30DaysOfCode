@@ -1,3 +1,6 @@
+//
+// Created by Charles on 9/27/2022.
+//
 #include <iostream>
 #include <string>
 #include <regex>
@@ -7,7 +10,7 @@ void letterMatch (string );
 void lower_and_upper_Match (string);
 
 int main () {
-string texto ("Hola123abc33");
+    string texto ("Hola123abc33");
 
     numberMatch(texto);
     letterMatch(texto);
@@ -20,8 +23,8 @@ string texto ("Hola123abc33");
 void numberMatch (string str ){
     regex num_expr ("\\d");
     int contador = 0;
-    std::regex_iterator<std::string::iterator> rit ( str.begin(),str.end(), num_expr );
-    std::regex_iterator<std::string::iterator> rend;
+    regex_iterator<string::iterator> rit ( str.begin(),str.end(), num_expr );
+    regex_iterator<string::iterator> rend;
     while (!(rit==rend)) {
         contador++;
         ++rit;
