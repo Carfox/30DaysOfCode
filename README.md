@@ -5,3 +5,4 @@ Bienvenidos al repositorio donde se encontraran las actividades de 30 days of co
 #30DaysOfCode #30DaysOfCodeByAEIS #30DoCodeAEIS #30DaysAEIS
 
 [Dia 1](https://github.com/Carfox/30DaysOfCode/tree/master/day1)
+[Dia 2](https://github.com/Carfox/30DaysOfCode/tree/master/day2)
