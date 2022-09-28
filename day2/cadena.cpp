@@ -23,8 +23,8 @@ int main () {
 void numberMatch (string str ){
     regex num_expr ("\\d");
     int contador = 0;
-    std::regex_iterator<std::string::iterator> rit ( str.begin(),str.end(), num_expr );
-    std::regex_iterator<std::string::iterator> rend;
+    regex_iterator<string::iterator> rit ( str.begin(),str.end(), num_expr );
+    regex_iterator<string::iterator> rend;
     while (!(rit==rend)) {
         contador++;
         ++rit;
