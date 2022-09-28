@@ -1,3 +1,6 @@
+//
+// Created by Charles on 9/27/2022.
+//
 #include <iostream>
 #include <string>
 #include <regex>
@@ -7,7 +10,7 @@ void letterMatch (string );
 void lower_and_upper_Match (string);
 
 int main () {
-string texto ("Hola123abc33");
+    string texto ("Hola123abc33");
 
     numberMatch(texto);
     letterMatch(texto);
